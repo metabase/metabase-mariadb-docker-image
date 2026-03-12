@@ -44,8 +44,9 @@ docker run \
 
 ### Run Locally (CLI)
 
+# Get the IP address of the daemon from `docker network inspect mariadb`.
+
 ```bash
-# Get the IP address of the daemon from `docker network inspect mariadb`
 docker run \
   --network mariadb \
   -it metabase/mariadb:10.6 \
