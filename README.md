@@ -44,7 +44,7 @@ docker run \
 
 ### Run Locally (CLI)
 
-# Get the IP address of the daemon from `docker network inspect mariadb`.
+Get the IP address of the daemon from `docker network inspect mariadb`.
 
 ```bash
 docker run \
